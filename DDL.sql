@@ -8,9 +8,6 @@ Database changed
 mysql> create table elayne_user(
     -> nickname varchar(8),
     -> );
-ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 3
-mysql> drop table elayne_user;
-ERROR 1051 (42S02): Unknown table 'el_page.elayne_user'
 mysql> create table elayne_user(
     -> nickname varchar(8)
     -> );
